@@ -1,0 +1,27 @@
+{
+  "name": "brand-audit-backend",
+  "version": "1.0.0",
+  "description": "Brand audit scoring engine",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "axios": "^1.6.2",
+    "cheerio": "^1.0.0-rc.12",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
+```
+
+✅ **FILE 2 READY TO COPY**
+
+Paste into:
+```
+brand-audit-saas/backend/package.json
